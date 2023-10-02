@@ -5,3 +5,6 @@ we are goint to install redux react-redux and react-thunk
 
 npm install redux react-redux redux-thunk@latest @types/react-redux @types/redux-thunk
 
+if you are getting any type error you can resolve this by installing appropriate types
+
+npm install @types/react
