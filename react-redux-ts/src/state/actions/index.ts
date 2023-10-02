@@ -11,4 +11,13 @@ interface BankruptAction {
   type: "bankrupt";
 }
 
-export type Action = DepositAction | WithdrawAction | BankruptAction;
+interface OpenAccountAction {
+  type: "openaccount";
+  amount: number;
+}
+
+export type Action =
+  | DepositAction
+  | WithdrawAction
+  | BankruptAction
+  | OpenAccountAction;
